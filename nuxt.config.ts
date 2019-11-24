@@ -1,9 +1,12 @@
-import { Configuration } from '@nuxt/types'
+import { Configuration } from '@nuxt/types';
 
 const config: Configuration = {
+  env: {
+    baseUrl: 'http://localhost:3000',
+  },
   buildModules: [
-    '@nuxt/typescript-build'
+    '@nuxt/typescript-build',
   ],
-}
+};
 
 export default config;
