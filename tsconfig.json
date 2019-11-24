@@ -9,18 +9,20 @@
       "dom"
     ],
     "esModuleInterop": true,
-    "experimentalDecorators": true,
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
-    "noImplicitAny": false,
+    "experimentalDecorators": true,
     "noEmit": true,
-    "baseUrl": "./app",
+    "baseUrl": ".",
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"]
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
     },
-    "typeRoots": ["/app/@types"],
     "types": [
       "@types/node",
       "@nuxt/types",
