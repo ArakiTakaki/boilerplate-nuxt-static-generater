@@ -8,6 +8,22 @@ const config: Configuration = {
   buildModules: [
     '@nuxt/typescript-build',
   ],
+  css: [
+    'reset.css',
+  ],
+  build: {
+    postcss: {
+      plugins: {
+        'postcss-flexbox': {},
+      },
+      preset: {
+        autoprefixer: {
+          grid: true
+        }
+      }
+    }
+  }
+
 };
 
 export default config;

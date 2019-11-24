@@ -16,7 +16,8 @@
     "@nuxt/typescript-runtime": "^0.2.4",
     "@nuxtjs/axios": "^5.8.0",
     "nuxt": "^2.10.2",
-    "ts-node": "^8.5.2"
+    "nuxt-property-decorator": "^2.5.0",
+    "reset.css": "^2.0.2"
   },
   "devDependencies": {
     "@nuxt/types": "^0.3.4",
@@ -25,10 +26,16 @@
     "@types/node": "^12.12.11",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
+    "autoprefixer": "^9.7.2",
     "eslint": "^6.7.0",
     "eslint-config-typescript": "^3.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "nuxt-property-decorator": "^2.5.0",
+    "node-sass": "^4.13.0",
+    "postcss-flexbox": "^1.0.3",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.0",
+    "ts-node": "^8.5.2",
     "typescript": "^3.7.2"
   }
 }
