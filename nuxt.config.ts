@@ -4,7 +4,11 @@ const config: Configuration = {
   srcDir: 'src/',
   env: { baseUrl: 'http://localhost:3000' },
   buildModules: ['@nuxt/typescript-build'],
+  modules: ['@nuxtjs/style-resources'],
   css: ['reset.css'],
+  styleResources: {
+    sass: ['./src/assets/css/resouces/*']
+  },
   build: {
     postcss: {
       plugins: { 'postcss-flexbox': {} },
