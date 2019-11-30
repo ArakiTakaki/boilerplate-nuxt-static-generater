@@ -26,8 +26,7 @@ const config: Configuration = {
   },
   serverMiddleware: [
     'redirect-ssl',
-    '~/api/main.ts',
-    // { path: '/api', handler: './src/api/main.ts' },
+    '~/api/main.ts'
   ]
 };
 
