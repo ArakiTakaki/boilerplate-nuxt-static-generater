@@ -15,8 +15,10 @@
     "@nuxt/typescript": "^2.8.1",
     "@nuxt/typescript-runtime": "^0.2.4",
     "@nuxtjs/axios": "^5.8.0",
+    "express": "^4.17.1",
     "nuxt": "^2.10.2",
     "nuxt-property-decorator": "^2.5.0",
+    "redirect-ssl": "^1.4.1",
     "reset.css": "^2.0.2"
   },
   "devDependencies": {
@@ -24,6 +26,7 @@
     "@nuxt/typescript-build": "^0.3.4",
     "@nuxtjs/style-resources": "^1.0.0",
     "@team-lab/eslint-config": "^0.1.1",
+    "@types/express": "^4.17.2",
     "@types/node": "^12.12.11",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",

@@ -1,4 +1,5 @@
 import { Configuration } from '@nuxt/types';
+import serveStatic from 'serve-static'
 
 const config: Configuration = {
   srcDir: 'src/',
@@ -23,6 +24,11 @@ const config: Configuration = {
     startUrl: '/',
     display: 'standalone'
   },
+  serverMiddleware: [
+    'redirect-ssl',
+    '~/api/main.ts',
+    // { path: '/api', handler: './src/api/main.ts' },
+  ]
 };
 
 export default config;
