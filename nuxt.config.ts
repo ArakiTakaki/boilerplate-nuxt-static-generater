@@ -23,6 +23,11 @@ const config: Configuration = {
     startUrl: '/',
     display: 'standalone'
   },
+  serverMiddleware: [
+    'redirect-ssl',
+    '~/api/main.ts',
+    '~/lib/logger.ts'
+  ]
 };
 
 export default config;

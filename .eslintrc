@@ -2,3 +2,5 @@ parserOptions:
   project: ./tsconfig.json # tsconfig.json path here
 extends:
   - '@team-lab/eslint-config/typescript'
+rules:
+  no-undef: 0
