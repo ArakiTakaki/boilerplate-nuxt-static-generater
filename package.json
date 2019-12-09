@@ -6,7 +6,7 @@
   "author": "ArakiTakaki <araki_takaki@yahoo.co.jp>",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt-ts",
+    "dev": "nuxt-ts  --port 5010",
     "build": "nuxt-ts build",
     "generate": "nuxt-ts generate",
     "start": "nuxt-ts start"
@@ -18,7 +18,6 @@
     "express": "^4.17.1",
     "nuxt": "^2.10.2",
     "nuxt-property-decorator": "^2.5.0",
-    "redirect-ssl": "^1.4.1",
     "reset.css": "^2.0.2",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0"

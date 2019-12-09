@@ -43,8 +43,6 @@ export default class Index extends Vue {
 </script>
 
 <style lang="sass" scoped>
-@import '../assets/css/resouces/mixins.sass'
-
 .message-component
   margin: 10px
 
@@ -56,7 +54,4 @@ export default class Index extends Vue {
 
 .sp-only
   display: block
-
-  +tb
-    display: none
 </style>
